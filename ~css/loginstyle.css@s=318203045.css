@@ -1,0 +1,119 @@
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	background-color:#fafafa;
+	}
+
+a{
+	color:#d71414;
+	}
+	
+#loginForm{
+	margin:0;
+	padding-bottom:20px;
+	}
+	
+#userLogin{
+	margin:0 auto;
+	margin-top:150px;
+	padding:20px;
+	width:250px;
+	background-color:#FFF;
+	-moz-border-radius: 10px; /* Firefox */
+  	-webkit-border-radius: 10px; /* Safari, Chrome */
+  	border-radius: 10px; /* CSS3 */
+	-webkit-box-shadow: 2px 1px 5px 2px #999;
+	-moz-box-shadow: 2px 1px 5px 2px #999;
+	box-shadow: 2px 1px 5px 2px #999;
+	}
+	
+.inputDet,
+.loginform
+{
+	display:block;
+	margin:5px;
+	margin-left:0;
+	border:1px solid #c0c0c0;
+	height:22px;
+	width:242px;
+	padding:0 4px;
+	-moz-border-radius: 3px; /* Firefox */
+  	-webkit-border-radius: 3px; /* Safari, Chrome */
+  	border-radius: 3px; /* CSS3 */
+	 background: -webkit-gradient(linear, left top, left bottombottom, from(#f8f8f8), to(#ffffff));  
+    background: -moz-linear-gradient(top,  #f8f8f8,  #ffffff);  
+}
+
+#bottomLinks
+{
+	
+	clear:both;
+	text-align:center;	
+	margin-top:10px;
+	
+}
+
+.buttonContainer
+{
+	text-align:right;	
+}
+
+.loginbuttons
+{
+	border:3px solid #ddd;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	border-radius: 10px; /* CSS3 */
+	font-family:verdana;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	padding:5px 20px;
+	background-image: -webkit-linear-gradient(top, #dd0000, #aa0000);
+	background-image:    -moz-linear-gradient(top, #dd0000, #aa0000);
+	background-image:     -ms-linear-gradient(top, #dd0000, #aa0000);
+	background-image:      -o-linear-gradient(top, #dd0000, #aa0000);
+	background-image:      		linear-gradient(top, #dd0000, #aa0000);
+	background-color: #aa0000;
+	margin:3px;
+	cursor:pointer;
+}
+.loginbuttons:hover
+{
+	background-image: -webkit-linear-gradient(top, #ee0000, #bb0000);
+	background-image:    -moz-linear-gradient(top, #ee0000, #bb0000);
+	background-image:     -ms-linear-gradient(top, #ee0000, #bb0000);
+	background-image:      -o-linear-gradient(top, #ee0000, #bb0000);
+	background-image:      		linear-gradient(top, #ee0000, #bb0000);
+	background-color: #bb0000;
+}
+
+
+.loginbutton
+{
+	background: url(../~images/system/loginbutton.png);	
+	border:none;
+	width:114px;
+	height:36px;
+	float:right;
+	margin:10px 0;
+}
+
+label{
+	margin-left:0;
+	font-size:14px;
+	color:#666;
+	}
+	
+#submit{
+	margin-left:145px;
+	margin-right:37px;
+	}
+#headerLogin{
+	margin-bottom:15px;
+	}
+

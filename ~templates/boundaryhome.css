@@ -1,0 +1,335 @@
+/*
+''template details start''
+'name: Boundary Court Home
+'primary:true
+'serial:16000
+'cssFile:boundaryHome.css
+'aspFile:boundaryHome.asp
+''template details end''
+*/
+
+
+body{
+	margin:0;
+	padding:0;
+	background:url('../~images/template/bg.jpg');
+	background-repeat:repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	}
+	
+img{
+	border:none;
+	}
+	
+h1{
+	color:#14174c;
+	font-size:16px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+h2{
+	font-size:12px;
+	color:#14174c;
+	padding:0px;
+	margin:0px;
+	}
+	
+p{
+	color:#555786;
+	font-size:11px;
+	}
+
+	
+#container{
+	margin:0;
+	padding:0;
+	width:772px;
+	margin:0 auto;
+	}
+	
+	
+#banner{
+	height:141px;
+	width:772px;
+	}
+	
+#logo{
+	margin-left:175px;
+	margin-top:25px;
+	}
+	
+#slider{
+	width:772px;
+	height:auto;
+	margin:0 auto;
+	}
+	
+.sliderImg{
+	margin:0 auto;
+	}
+	
+#contentContainer{
+	width:772px;
+	min-height:525px;
+	background-color:#f4f4f4;
+	background-image:url(../~images/template/contentbg.jpg);
+	background-repeat:repeat-y;
+	margin-top:10px;
+	-moz-border-radius: 5px; /* Firefox */
+  	-webkit-border-radius: 5px; /* Safari, Chrome */
+  	border-radius: 5px; /* CSS3 */
+	overflow:auto;
+	}
+	
+#contentTop{
+	background-color:#d9e4f3;
+	height:57px;
+	background-image:url(../~images/template/topcontentbg.jpg);
+	-moz-border-radius: 5px 5px 0 0; /* Firefox */
+  	-webkit-border-radius: 5px 5px 0 0; /* Safari, Chrome */
+  	border-radius: 5px 5px 0 0; /* CSS3 */
+	}
+#leftNav{
+	min-height:500px;
+	width:250px;
+	float:left;
+	background-color:#d9e4f3;
+	-moz-border-radius:  0 0 0 5px; /* Firefox */
+  	-webkit-border-radius: 0 0 0 5px; /* Safari, Chrome */
+  	border-radius: 0 0 0 5px; /* CSS3 */
+	}
+	
+#leftNav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+	
+#leftNav ul li a {
+	display: block;
+	height: 20px;
+	background-color:#d9e4f3;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #14174c;
+	padding-left:30px;
+	padding-top:10px;
+	padding-bottom:5px;
+	text-decoration: none;
+	list-style:none;
+	border-top:#f4f4f4 1px solid;
+}
+
+#leftNav ul li a:hover {
+	background:#dfe8f5;
+}
+	
+#mainContent{
+	width:522px;
+	min-height:500px;
+	float:right;
+	background-color:#f4f4f4;
+	-moz-border-radius:  0 0 5px 0; /* Firefox */
+  	-webkit-border-radius: 0 0 5px 0; /* Safari, Chrome */
+  	border-radius: 0 0 5px 0; /* CSS3 */
+	font-size:11px;
+	color:#555786;
+	}
+	
+#mainContent a{
+	color:#769e7e;
+	}
+	
+#mainContent a:hover{
+	color:#688f70;
+	}
+	
+.mainImg{
+	float:left;
+	padding-right:5px;
+	}
+	
+.mainContentItems{
+	width:100%;
+	min-height:100px;
+	}
+
+#innerContent{
+	padding:10px;
+	}
+	
+#innerContent h1{
+	margin-top:30px;
+	margin-bottom:20px;
+	}
+	
+#footer{
+	height:230px;
+	width:100%;
+	background-color:#eff3f9;
+	margin-top:35px;
+	}
+	
+#contactInfo{
+	text-align:center;
+	margin-right:200px;
+	}
+	
+#innerFooter{
+	width:665px;
+	padding-top:30px;
+	margin:0 auto;
+	}
+	
+#innerFooter ul{
+	margin:0;
+	padding:0;
+	margin-left:25px;
+	}
+	
+
+#innerFooter li{
+	display:inline;
+	margin:0;
+	padding:0;
+	font-size:10px;
+	margin-right:10px;
+	margin-left:30px;
+	}
+	
+#innerFooter a{
+	color:#14174c;
+	text-decoration:none;
+	}
+#innerFooter p{
+	text-align:center;
+	font-size:10px;
+	}
+	
+#badges{
+	width:400px;
+	padding-left:30px;
+	margin:0 auto;
+	margin-top:30px;
+	}
+	
+#badges img{
+	margin-right:5px;
+	}
+	
+/* Date Picker */
+
+#webroomsDatePicker{
+	margin-left:10px;
+	margin-top:20px;
+	padding:10px;
+	}
+	
+#bookOnline{
+	margin-left:27px;
+	}
+ .rwr_block {
+	margin-top: 5px;
+}
+
+.rwr_label {
+	font-size: 13px;
+	font-weight:bold;
+	color: #14174c;
+	display:inline;
+	}
+.rwr_dayLabel {
+	display: inline;
+	color:#14174c;
+	margin-left:30px;
+}
+ select {
+	font-size: 12px;
+	float:left;
+	background:#FFF;
+   	padding-top: 3px;
+   	padding-bottom: 3px;
+   	padding-right:5px;
+   	margin-left:10px;
+   	font-size: 12px;
+   	height:29px;
+   	border: 1px solid #e4e3e3;
+   	-moz-border-radius: 5px; /* Firefox */
+  	-webkit-border-radius: 5px; /* Safari, Chrome */
+  	border-radius: 5px; /* CSS3 */	
+}
+
+ .rwr_button {
+	width: 145px;
+	height: 40px;
+	cursor: pointer;
+	background: url('../~images/template/bookbutton.png');
+	border: none;
+	margin-top:10px;
+}
+
+#facList{
+	width:250px;
+	display:inline;
+	float:left;
+	}
+
+#facImgs{
+	width:100px;
+	float:right;
+	margin-right:80px;
+	margin-bottom:10px;
+	}
+	
+/* Contact Form */
+
+
+input, textarea {  
+    padding: 9px;  
+    border: solid 1px #C9C9C9;  
+    outline: 0;  
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px); 
+	-moz-border-radius: 5px; /* Firefox */
+  	-webkit-border-radius: 5px; /* Safari, Chrome */
+  	border-radius: 5px; /* CSS3 */
+    }  
+  
+textarea {  
+    width: 350px;  
+    max-width: 350px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+  
+input:hover, textarea:hover,  
+input:focus, textarea:focus {  
+    border-color: #d9e4f3;  
+    }  
+  
+.form label {  
+    margin-left: 10px;  
+    color: #999999;  
+    }  
+  
+.submit input{  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    }  
+	
+.actImg{
+	float:left;
+	padding:10px;
+	}
+	
+.accomImg{
+	float:left;
+	padding-right:10px;
+	}
+	
